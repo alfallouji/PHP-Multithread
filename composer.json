@@ -1,12 +1,14 @@
 {
 	"name": "alfallouji/php_multithread",
 	"description": "iPHP library to handle multi-threading",
-	"authors": {
-		"name": "Bashar Al-Fallouji",
-		"email": "alfallouji@gmail.com",
-		"homepage": "bashar.alfallouji.com",
-		"role": "Developer"
-	},
+	"authors": [
+		{
+			"name": "Bashar Al-Fallouji",
+			"email": "alfallouji@gmail.com",
+			"homepage": "bashar.alfallouji.com",
+			"role": "Developer"
+		}
+	],
 	"require": {
 		"php": ">=5.3.0"
 	}
