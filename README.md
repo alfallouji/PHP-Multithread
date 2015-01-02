@@ -35,7 +35,7 @@ See the GNU Lesser General Public License for more details.
 ## Description
 
 
-This library provides a lightweight / simple PHP Oriented Object classe to handle multi-threading. Check the sample folder for examples on how to use it.
+This library provides a lightweight / simple PHP Oriented Object classe to handle multi-threading. Check the sample folder for examples on how to use it. This library requires to have the pcntl (http://php.net/pcntl) extension installed and it will only work with unix distributions.
 
 ## Setup 
 
