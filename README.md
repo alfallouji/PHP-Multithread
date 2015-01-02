@@ -67,7 +67,8 @@ require(__DIR__ . '/../Threading/Task/Sample.php');
 
 $maxThreads = 5;
 echo 'Example of the multi-thread manager with ' . $maxThreads . ' threads' . PHP_EOL . PHP_EOL;
-$exampleTask = new Threading\Task\Example();
+$params = array();
+$exampleTask = new Threading\Task\Example($params);
 $multithreadManager = new Threading\Multiple();
 
 $cpt = 0;
