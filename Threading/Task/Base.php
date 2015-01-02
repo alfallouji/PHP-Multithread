@@ -60,7 +60,9 @@ abstract class Base
     /**
      * Main method containing the logic to be executed by the task
      * 
+     * @param $params array Assoc array of params
+     *
      * @return boolean True upon success, false otherwise
      */
-    abstract public function process();
+    abstract public function process(array $params = array());
 }

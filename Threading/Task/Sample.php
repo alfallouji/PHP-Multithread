@@ -60,9 +60,11 @@ class Example extends Base
     /**
      * Main method containing the logic to be executed by the task
      * 
+     * @param $params array Assoc array of params
+     *
      * @return boolean True upon success, false otherwise
      */
-    public function process()
+    public function process(array $params = array());
     {
         sleep(1);
         echo '[Pid:' . getmypid() . '] Task executed at ' . date('Y-m-d H:i:s') . PHP_EOL;
