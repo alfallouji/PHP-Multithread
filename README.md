@@ -62,7 +62,6 @@ The sample folder contains example on how to use this library.
 
 ### Multi-threading a simple task
 ```
-<?php
 /**
  * Note : Code is released under the GNU LGPL
  *
