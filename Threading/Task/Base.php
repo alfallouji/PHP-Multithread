@@ -28,7 +28,7 @@ namespace Threading\Task;
 abstract class Base
 {
     /**
-     * Initialize (called first by the task manager
+     * Initialize (called first by the task manager)
      * 
      * @return mixed
      */
