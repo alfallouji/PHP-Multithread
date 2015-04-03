@@ -60,10 +60,7 @@ The sample folder contains example on how to use this library.
 
 ### Multi-threading a simple task
 ```
-require(__DIR__ . '/../Threading/Multiple.php');
-require(__DIR__ . '/../Threading/Task/Base.php');
-require(__DIR__ . '/../Threading/Task/Sample.php');
-
+require(__DIR__ . '/../vendor/autoload.php');
 
 $maxThreads = 5;
 echo 'Example of the multi-thread manager with ' . $maxThreads . ' threads' . PHP_EOL . PHP_EOL;
@@ -76,4 +73,40 @@ while (++$cpt <= 30)
 {
     $multithreadManager->start($exampleTask);
 }
+```
+
+Will provide following output : 
+```
+Example of the multi-thread manager with 5 threads
+
+[Pid:23447] Task executed at 2015-04-03 14:49:18
+[Pid:23448] Task executed at 2015-04-03 14:49:18
+[Pid:23449] Task executed at 2015-04-03 14:49:18
+[Pid:23450] Task executed at 2015-04-03 14:49:18
+[Pid:23451] Task executed at 2015-04-03 14:49:18
+[Pid:23452] Task executed at 2015-04-03 14:49:19
+[Pid:23454] Task executed at 2015-04-03 14:49:19
+[Pid:23453] Task executed at 2015-04-03 14:49:19
+[Pid:23455] Task executed at 2015-04-03 14:49:19
+[Pid:23456] Task executed at 2015-04-03 14:49:19
+[Pid:23457] Task executed at 2015-04-03 14:49:20
+[Pid:23458] Task executed at 2015-04-03 14:49:20
+[Pid:23459] Task executed at 2015-04-03 14:49:20
+[Pid:23460] Task executed at 2015-04-03 14:49:20
+[Pid:23461] Task executed at 2015-04-03 14:49:20
+[Pid:23463] Task executed at 2015-04-03 14:49:21
+[Pid:23462] Task executed at 2015-04-03 14:49:21
+[Pid:23464] Task executed at 2015-04-03 14:49:21
+[Pid:23465] Task executed at 2015-04-03 14:49:21
+[Pid:23466] Task executed at 2015-04-03 14:49:21
+[Pid:23467] Task executed at 2015-04-03 14:49:22
+[Pid:23468] Task executed at 2015-04-03 14:49:22
+[Pid:23470] Task executed at 2015-04-03 14:49:22
+[Pid:23469] Task executed at 2015-04-03 14:49:22
+[Pid:23471] Task executed at 2015-04-03 14:49:22
+[Pid:23472] Task executed at 2015-04-03 14:49:23
+[Pid:23473] Task executed at 2015-04-03 14:49:23
+[Pid:23474] Task executed at 2015-04-03 14:49:23
+[Pid:23475] Task executed at 2015-04-03 14:49:23
+[Pid:23476] Task executed at 2015-04-03 14:49:23
 ```
