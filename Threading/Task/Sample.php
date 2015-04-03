@@ -64,7 +64,7 @@ class Example extends Base
      *
      * @return boolean True upon success, false otherwise
      */
-    public function process(array $params = array());
+    public function process(array $params = array())
     {
         sleep(1);
         echo '[Pid:' . getmypid() . '] Task executed at ' . date('Y-m-d H:i:s') . PHP_EOL;
