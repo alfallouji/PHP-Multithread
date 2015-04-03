@@ -20,10 +20,7 @@
  *
  * @author      Al-Fallouji Bashar
  */
-require(__DIR__ . '/../Threading/Multiple.php');
-require(__DIR__ . '/../Threading/Task/Base.php');
-require(__DIR__ . '/../Threading/Task/Sample.php');
-
+require(__DIR__ . '/../vendor/autoload.php');
 
 $maxThreads = 5;
 echo 'Example of the multi-thread manager with ' . $maxThreads . ' threads' . PHP_EOL . PHP_EOL;
